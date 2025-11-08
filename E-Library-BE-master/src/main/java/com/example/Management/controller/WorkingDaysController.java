@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/working-days")
 public class WorkingDaysController {
+
     @Autowired
     private WorkingDaysService workingDaysService;
 
