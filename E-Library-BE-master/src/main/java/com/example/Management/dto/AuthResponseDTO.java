@@ -13,5 +13,4 @@ public class AuthResponseDTO {
         this.username= username;
         this.role = role;
     }
-
 }
