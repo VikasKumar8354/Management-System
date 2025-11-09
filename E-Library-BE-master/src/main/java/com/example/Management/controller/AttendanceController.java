@@ -21,6 +21,7 @@ import java.util.Optional;
 @PreAuthorize("hasAnyRole('SUPER_ADMIN', 'ADMIN','USER')")
 @RequestMapping("/api/attendance")
 public class AttendanceController {
+
     private final AttendanceService attendanceService;
     @Autowired
     private final EmployeeRepository employeeRepository;
